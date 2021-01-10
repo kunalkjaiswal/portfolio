@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React,{ Component } from "react"
+import Home from '../src/components/Home/Home'
+import About from '../src/components/About/About'
+export default class App extends Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            basicInfo: []
+        }
+    }    
+    componentDidMount() {
+        try {
+            this.fetchBasicInfo();
+        }
+        catch (ex) {
+            console.log(ex.message);
+        }
+    }
+    async fetchBasicInfo() {
+        try {
+            const response = await fetch('portfolioData.json');
+            const data = await response.json();
+            this.setState({ basicInfo: data.basicInfo });
+        }
+        catch (ex) {
+            console.log(ex.message);
+        }
+    }
+    render(){        
+        const {
+            basicInfo
+        } = this.state;
+        return(
+            <div>
+                <Home data={basicInfo}/>
+                <About/>
+            </div>
+        )
+    }
 }
-
-export default App;
