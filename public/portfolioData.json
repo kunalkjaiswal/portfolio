@@ -1,67 +1,80 @@
 {
     "basicInfo": {
       "name": "Kunal Jaiswal",
-      "jobTitle": "Web Developer",
+      "jobTitle": "Web Developer"
+    },
+    "about":{
+      "title":"I'm Full Stack Web Developer @ MBRDI",
+      "description":"I have worked on multiple web development projects using latest JavaScript technologies and framework like React and Angular. I also have experience in SharePoint(onPrem/Online) and .NET Core.",
+      "hobbies":"In my spare time I like to explore new tech and Photoshop.",
       "social": [
         {
           "name": "github",
           "url": "https://github.com",
-          "class": "fab fa-github"
+          "class": "fa fa-github"
         },
         {
           "name": "instagram",
           "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "class": "fa fa-instagram"
         }
-      ],
-      "image": "myProfile.jpg"
+      ]
     },
     "skills": {
       "icons": [
         {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain colored",
+          "level": 90,
+          "color": "#f0db4f"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original colored",
+          "level": 70,
+          "color": "#61dafb"
+        },
+        {
+          "name": "AngularJS",
+          "class": "devicon-angularjs-plain colored",
+          "level": 70,
+          "color": "#c4473a"
+        },
+        {
           "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "class": "devicon-html5-plain colored",
+          "level": 95,
+          "color": "#e54d26"
         },
         {
           "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "class": "devicon-css3-plain colored",
+          "level": 90,
+          "color": "#3d8fc6"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "jQuery",
+          "class": "devicon-jquery-plain colored",
+          "level": 70,
+          "color": "#0769ad"
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-bootstrap-plain colored",
+          "level": 80,
+          "color": "#59407f"
         },
         {
           "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "class": "devicon-csharp-plain colored",
+          "level": 65,
+          "color": "#68217a"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "PhotoShop",
+          "class": "devicon-photoshop-plain colored",
+          "level": 50,
+          "color": "#80b5e2"
         }
       ]
     }

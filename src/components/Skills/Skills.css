@@ -1,0 +1,31 @@
+#skills{
+    height: 40vh;
+    background-color: #f5f5f5;
+    padding: 35px 30px;
+}
+#skills h4{
+    color: #000;
+}
+.skill-tech, .tech{
+    width: 100%;
+    padding: 10px 30px;
+}
+.tech{
+    display: inline-flex;
+}
+.tech-icon i{
+    font-size: 30px;
+}
+@media (max-width: 1024px){
+    #skills{
+        padding: 35px;
+        height: 90vh;
+    }
+}
+
+@media (max-width: 991px){
+    #skills{
+        padding: 35px;
+        height: 90vh;
+    }
+}

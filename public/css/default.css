@@ -29,6 +29,7 @@ e. Others
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -292,7 +293,7 @@ a, a:visited {
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+a:hover, a:focus { color: #8cf0e2; }
 p a, p a:visited { line-height: inherit; }
 
 
@@ -441,7 +442,7 @@ dd { margin: 0 0 0 20px; }
    background-color: #E6E8EB;
 	color: #A9ADB2;
 }
-.pagination .prev, .pagination .next {}
+
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -589,17 +590,11 @@ input[type="checkbox"] { display: inline; }
 
 /* default
 --------------------------------------------------------------- */
-.row {
-   width: 96%;
-   max-width: 1020px;
-   margin: 0 auto;
-}
+
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
 
 .narrow .row { max-width: 980px; }
-
-.row .row { width: auto; max-width: none; margin: 0 -20px; }
 
 /* row clearing */
 .row:before,
