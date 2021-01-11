@@ -19,13 +19,13 @@
 @media (max-width: 1024px){
     #skills{
         padding: 35px;
-        height: 90vh;
+        height: 75vh;
     }
 }
 
 @media (max-width: 991px){
     #skills{
         padding: 35px;
-        height: 90vh;
+        height: 75vh;
     }
 }
