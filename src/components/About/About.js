@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profilePic from './profile-pic.jpg';
+//import profilePic from './profile-pic.jpg';
 import '../About/About.css';
 
 export default class About extends Component {   
@@ -19,6 +19,7 @@ export default class About extends Component {
             var title = this.props.data.title;
             var description = this.props.data.description;
             var hobbies = this.props.data.hobbies;
+            var profilePic = this.props.data.pic;
         }
         return (
             <div className="row about container" id="about">

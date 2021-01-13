@@ -69,6 +69,10 @@ export default class Home extends Component {
                                         color: {
                                             value: "#eb83f8"
                                         }
+                                    },
+                                    type:"polygon",
+                                    polygon:{
+                                        nb_sides: 6
                                     }
                                 },
                                 interactivity: {

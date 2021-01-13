@@ -7,6 +7,7 @@
       "title":"I'm Full Stack Web Developer @ MBRDI",
       "description":"I have worked on multiple web development projects using latest JavaScript technologies and framework like React and Angular. I also have experience in SharePoint(onPrem/Online) and .NET Core.",
       "hobbies":"In my spare time I like to explore new tech and Photoshop.",
+      "pic":"images/profile-pic.jpg",
       "social": [
         {
           "name": "github",
@@ -26,7 +27,7 @@
           "name": "JavaScript",
           "class": "devicon-javascript-plain colored",
           "level": 90,
-          "color": "#f0db4f"
+          "color": "#deca48"
         },
         {
           "name": "React",
@@ -77,5 +78,33 @@
           "color": "#80b5e2"
         }
       ]
-    }
+    },
+    "experience":[      
+      {
+        "title":"Senior Consultant",
+        "company":"Mercedes Benz Research & Development India",
+        "date":"Feb'20 - Present",
+        "tech":["JavaScript","ReactJS","C#",".Net Core","SQL","Azure"],
+        "work":["Build system to store all product related information and display as per user requirement.",
+          "Working with various Azure services to make system more reliable.",
+          "Build capabilty site for the team."
+        ],
+        "image":"images/mercedes.png",
+        "imgClass":"mercedes-img"
+      },
+      {
+        "title":"Module Lead",
+        "company":"Mindtree Ltd.",
+        "date":"Oct'15 - Feb'20",
+        "tech":["JavaScript","jQuery","ReactJS","C#","SQL","SharePoint"],
+        "work":[
+          "Build multiple web applications for Mindtree intranet portal.",
+          "Automated promotion system which reduced manual work by 80%.",
+          "Migrated SharePoint solutions from SP 2013 to SP Online.",
+          "Handled and trained team of 2 members."
+        ],
+        "image":"images/mindtree.png",
+        "imgClass":"mindtree-img"
+      }
+    ]
   }

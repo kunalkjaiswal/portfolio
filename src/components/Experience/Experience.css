@@ -1,0 +1,65 @@
+#experience{
+    background: #2B2B2B;
+    padding: 35px 30px;
+}
+.eperience-timeline{
+    width: 100%;
+    padding: 5% 6%;
+}
+.vertical-timeline-element-icon{
+    background: #2b2b2b ;
+}
+.vertical-timeline-element-date{
+    font-family: Poppins;
+    font-size: 16px !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+.vertical-timeline-element-content{
+    box-shadow: 0px 3px 0px #83e8f8;
+}
+.mindtree-img{
+    margin: 8px 0px;
+    transform: scale(2);
+}
+.work-list{
+    padding-top: 12px;
+    font-size: 12px;
+    font-family: Poppins;
+}
+.list-item{
+    padding-left: 4px;
+}
+.technologies{
+    font-size: 12px;
+    font-family: Poppins;
+    width: 100%;
+    margin: 0px !important;
+}
+.tech-item{
+    padding: 4px 6px;  
+     background-color: #ff5e00b5;
+    color: white;
+    margin: 8px 4px;
+    border-radius: 25px;
+}
+.tech-item span{
+    padding: 4px;
+}
+@media (max-width: 1024px){
+    #experience{
+        padding: 35px;
+    }
+    .vertical-timeline-element-date{
+        color: #000000 !important;
+    }
+}
+
+@media (max-width: 991px){
+    #experience{
+        padding: 35px;
+    }
+    .vertical-timeline-element-date{
+        color: #000000 !important;
+    }
+}
