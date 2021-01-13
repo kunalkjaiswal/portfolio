@@ -334,9 +334,9 @@
     padding-top: 15px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 500px){
     .content-text {
-        padding: 70% 0% 0% 10%;
+        padding: 70% 0% 0% 10% !important;
     }
     .glitch {
         font-size: 40px;
@@ -347,9 +347,9 @@
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 750px){
     .content-text {
-        padding: 70% 0% 0% 10%;
+        padding: 15%;
     }
     .glitch {
         font-size: 40px;
