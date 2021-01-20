@@ -1,5 +1,5 @@
 # DEMO
-[https://www.kunaljaiswal.online](kunaljaiswal.online)
+[kunaljaiswal.online](https://www.kunaljaiswal.online)
 
 # Getting Started with Create React App
 
