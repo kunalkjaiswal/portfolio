@@ -2,11 +2,12 @@
 [kunaljaiswal.online](https://www.kunaljaiswal.online)
 
 # How to build your own portfolio site
-  1. Download project
-  2. Run `npm install` in command prompt inside project folder.
-  3. Run `npm start` to check the app.
-  4. Update PortfolioData.json, resume.pdf and ProfilePic.jpg accordingly.
-  5. For email integration update contact.js file with your IDs. For more infomation visit [EmailJS](https://www.emailjs.com/docs/user-guide/connecting-email-services/)
+
+1. Download project
+2. Run `npm install` in command prompt inside project folder.
+3. Run `npm start` to check the app.
+4. Update PortfolioData.json, resume.pdf and ProfilePic.jpg accordingly.
+5. For email integration update contact.js file with your IDs. For more infomation visit [EmailJS](https://www.emailjs.com/docs/user-guide/connecting-email-services/)
 
 # Getting Started with Create React App
 
