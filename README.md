@@ -1,5 +1,5 @@
-# DEMO 
-[https://www.kunaljaiswal.online/] (Kunal Jaiswal Portfolio)
+# DEMO
+[https://www.kunaljaiswal.online](kunaljaiswal.online)
 
 # Getting Started with Create React App
 
