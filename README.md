@@ -1,5 +1,11 @@
-# DEMO
+# Demo
 [kunaljaiswal.online](https://www.kunaljaiswal.online)
+
+# How to create your own portfolio site
+  1. Download project
+  2. Run `npm install` in command prompt inside project folder.
+  3. Run `npm start` to check the app.
+  4. Update PortfolioData.json, resume.pdf and ProfilePic.jpg accordingly.
 
 # Getting Started with Create React App
 
