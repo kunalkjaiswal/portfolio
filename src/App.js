@@ -3,6 +3,7 @@ import Home from '../src/components/Home/Home';
 import About from '../src/components/About/About';
 import Skills from '../src/components/Skills/Skills';
 import Experience from '../src/components/Experience/Experience';
+import Contact from '../src/components/Contact/Contact';
 export default class App extends Component{
     constructor(props){
         super(props);
@@ -10,7 +11,8 @@ export default class App extends Component{
             basicInfo: [],
             about:[],
             skills:[],
-            experience:[]
+            experience:[],
+            contact:[]
         }
     }    
     componentDidMount() {
@@ -25,7 +27,13 @@ export default class App extends Component{
         try {
             const response = await fetch('portfolioData.json');
             const data = await response.json();
-            this.setState({ basicInfo: data.basicInfo,about:data.about,skills:data.skills,experience:data.experience });
+            this.setState({ 
+                basicInfo: data.basicInfo,
+                about:data.about,
+                skills:data.skills,
+                experience:data.experience,
+                contact:data.contact
+            });
         }
         catch (ex) {
             console.log(ex.message);
@@ -36,7 +44,8 @@ export default class App extends Component{
             basicInfo,
             about,
             skills,
-            experience
+            experience,
+            contact
         } = this.state;
         return(
             <div>
@@ -44,6 +53,7 @@ export default class App extends Component{
                 <About data={about}/>
                 <Skills data={skills}/>
                 <Experience data={experience}/>
+                <Contact data={contact}/>
             </div>
         )
     }

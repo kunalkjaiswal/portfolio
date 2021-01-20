@@ -6,7 +6,7 @@ import './Experience.css';
 export default class Experience extends Component {
 
     render() {
-        let experience = [{ work: [],tech:[] }]
+        let experience = [{ work: [], tech: [] }]
         if (this.props.data) {
             experience = this.props.data;
         }
@@ -43,8 +43,8 @@ export default class Experience extends Component {
                                     </ul>
                                     <div className="technologies row">
                                         {
-                                            exp.tech.map((tech,j)=>{
-                                                return(
+                                            exp.tech.map((tech, j) => {
+                                                return (
                                                     <div key={j} className="tech-item">
                                                         <span>{tech}</span>
                                                     </div>
@@ -56,6 +56,12 @@ export default class Experience extends Component {
                             )
                         })
                         }
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work work-last-node"
+                            contentStyle={{ background: '#fff', color: '#000' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                            icon={<i className="fa fa-briefcase" aria-hidden="true"></i>}
+                        ></VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>
             </div >

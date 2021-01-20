@@ -7,9 +7,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 0;
 }
 .content-text {
-    padding: 15% 0% 0% 30%;
+    margin: 15% 0% 15% 30%;
+    z-index: 1;
 }
 .line-text h4 {
     color: rgb(255, 255, 255);
@@ -25,7 +27,7 @@
     height: 3px;
     width: 90px;
     display: block;
-    background-color:#83e8f8;
+    background-color:rgb(80 177 204);
     position: absolute;
     top: 0;
     left: -108px;
@@ -68,6 +70,36 @@
     font-weight: 700;
 }
 
+.navbar{
+    position: fixed !important;
+    width: 100%;
+    background-color: #000 !important;
+    z-index: 1000;
+    padding: 10px 20px !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 14px;
+    font-family: Poppins !important;
+}
+.nav-link.active{
+    color:#ff8d4a !important;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0) !important;
+    border-color: rgb(0 0 0) !important;
+    outline: 0;
+}
+.collapse .nav-link{
+    padding-left: 20px !important;
+}
+.collapse.show .nav-link{
+    padding-left: 0 !important;
+}
 @keyframes glitch-anim {
     0% {
         clip: rect(85px,9999px,45px,0);
@@ -336,7 +368,7 @@
 
 @media (max-width: 500px){
     .content-text {
-        padding: 70% 0% 0% 10% !important;
+        margin: 70% 0% 0% 10% !important;
     }
     .glitch {
         font-size: 40px;
@@ -348,9 +380,6 @@
 }
 
 @media (max-width: 750px){
-    .content-text {
-        padding: 15%;
-    }
     .glitch {
         font-size: 40px;
         line-height: 40px;
@@ -364,10 +393,7 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {       
-    .content-text {
-        padding: 15%;
-    }
+  and (orientation: landscape) {   
     .glitch {
         font-size: 40px;
         line-height: 40px;
@@ -384,9 +410,6 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: landscape) {
-    .content-text {
-        padding: 15%;
-    }
     .glitch {
         font-size: 40px;
         line-height: 40px;

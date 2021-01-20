@@ -1,110 +1,121 @@
 {
-    "basicInfo": {
-      "name": "Kunal Jaiswal",
-      "jobTitle": "Web Developer"
-    },
-    "about":{
-      "title":"I'm Full Stack Web Developer @ MBRDI",
-      "description":"I have worked on multiple web development projects using latest JavaScript technologies and framework like React and Angular. I also have experience in SharePoint(onPrem/Online) and .NET Core.",
-      "hobbies":"In my spare time I like to explore new tech and Photoshop.",
-      "pic":"images/profile-pic.jpg",
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fa fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fa fa-instagram"
-        }
-      ]
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain colored",
-          "level": 90,
-          "color": "#deca48"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original colored",
-          "level": 70,
-          "color": "#61dafb"
-        },
-        {
-          "name": "AngularJS",
-          "class": "devicon-angularjs-plain colored",
-          "level": 70,
-          "color": "#c4473a"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain colored",
-          "level": 95,
-          "color": "#e54d26"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain colored",
-          "level": 90,
-          "color": "#3d8fc6"
-        },
-        {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain colored",
-          "level": 70,
-          "color": "#0769ad"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain colored",
-          "level": 80,
-          "color": "#59407f"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain colored",
-          "level": 65,
-          "color": "#68217a"
-        },
-        {
-          "name": "PhotoShop",
-          "class": "devicon-photoshop-plain colored",
-          "level": 50,
-          "color": "#80b5e2"
-        }
-      ]
-    },
-    "experience":[      
+  "basicInfo": {
+    "name": "Kunal Jaiswal",
+    "jobTitle": "Web Developer"
+  },
+  "about":{
+    "title":"I'm Full Stack Web Developer @ MBRDI",
+    "description":"I have worked on multiple web development projects using latest JavaScript technologies and framework like React and Angular. I also have experience in SharePoint(onPrem/Online) and .NET Core.",
+    "hobbies":"In my spare time I like to explore new tech and Photoshop.",
+    "pic":"images/profile-pic.jpg",
+    "social": [
       {
-        "title":"Senior Consultant",
-        "company":"Mercedes Benz Research & Development India",
-        "date":"Feb'20 - Present",
-        "tech":["JavaScript","ReactJS","C#",".Net Core","SQL","Azure"],
-        "work":["Build system to store all product related information and display as per user requirement.",
-          "Working with various Azure services to make system more reliable.",
-          "Build capabilty site for the team."
-        ],
-        "image":"images/mercedes.png",
-        "imgClass":"mercedes-img"
+        "name": "github",
+        "url": "https://github.com/kunalkjaiswal",
+        "class": "fa fa-github"
       },
       {
-        "title":"Module Lead",
-        "company":"Mindtree Ltd.",
-        "date":"Oct'15 - Feb'20",
-        "tech":["JavaScript","jQuery","ReactJS","C#","SQL","SharePoint"],
-        "work":[
-          "Build multiple web applications for Mindtree intranet portal.",
-          "Automated promotion system which reduced manual work by 80%.",
-          "Migrated SharePoint solutions from SP 2013 to SP Online.",
-          "Handled and trained team of 2 members."
-        ],
-        "image":"images/mindtree.png",
-        "imgClass":"mindtree-img"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kunal-jaiswal-54425081/",
+        "class": "fa fa-linkedin-square"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/kunal565",
+        "class": "fa fa-facebook-square"
       }
     ]
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain colored",
+        "level": 90,
+        "color": "#deca48"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original colored",
+        "level": 70,
+        "color": "#61dafb"
+      },
+      {
+        "name": "AngularJS",
+        "class": "devicon-angularjs-plain colored",
+        "level": 70,
+        "color": "#c4473a"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain colored",
+        "level": 95,
+        "color": "#e54d26"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain colored",
+        "level": 90,
+        "color": "#3d8fc6"
+      },
+      {
+        "name": "jQuery",
+        "class": "devicon-jquery-plain colored",
+        "level": 70,
+        "color": "#0769ad"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain colored",
+        "level": 80,
+        "color": "#59407f"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain colored",
+        "level": 65,
+        "color": "#68217a"
+      },
+      {
+        "name": "PhotoShop",
+        "class": "devicon-photoshop-plain colored",
+        "level": 50,
+        "color": "#80b5e2"
+      }
+    ]
+  },
+  "experience":[      
+    {
+      "title":"Senior Consultant",
+      "company":"Mercedes Benz Research & Development India",
+      "date":"Feb'20 - Present",
+      "tech":["JavaScript","ReactJS","C#",".Net Core","SQL","Azure"],
+      "work":["Build system to store all product related information and display as per user requirement.",
+        "Working with various Azure services to make system more reliable.",
+        "Build capabilty site for the team."
+      ],
+      "image":"images/mercedes.png",
+      "imgClass":"mercedes-img"
+    },
+    {
+      "title":"Module Lead",
+      "company":"Mindtree Ltd.",
+      "date":"Oct'15 - Feb'20",
+      "tech":["JavaScript","jQuery","ReactJS","C#","SQL","SharePoint"],
+      "work":[
+        "Build multiple web applications for Mindtree intranet portal.",
+        "Automated promotion system which reduced manual work by 80%.",
+        "Migrated SharePoint solutions from SP 2013 to SP Online.",
+        "Handled and trained team of 2 members."
+      ],
+      "image":"images/mindtree.png",
+      "imgClass":"mindtree-img"
+    }
+  ],
+  "contact":{
+    "phone":"+91-8653497134",
+    "email":"contact.kunal13@gmail.com",
+    "address1":"Thubrahalli, Whitefield",
+    "address2":"Bangalore, India"
   }
+}

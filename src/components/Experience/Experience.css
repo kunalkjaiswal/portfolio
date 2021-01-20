@@ -46,12 +46,24 @@
 .tech-item span{
     padding: 4px;
 }
+.work-last-node .vertical-timeline-element-icon{
+    color:#e4a800;
+    font-size: 35px;
+    text-align: center;
+    padding: 4px 0px;
+}
+.work-last-node .vertical-timeline-element-content{
+    display: none;
+}
 @media (max-width: 1024px){
     #experience{
         padding: 35px;
     }
     .vertical-timeline-element-date{
         color: #000000 !important;
+    }
+    .work-last-node .vertical-timeline-element-icon{
+        font-size: 22px;
     }
 }
 
@@ -61,5 +73,8 @@
     }
     .vertical-timeline-element-date{
         color: #000000 !important;
+    }
+    .work-last-node .vertical-timeline-element-icon{
+        font-size: 22px;
     }
 }

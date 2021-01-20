@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import '../Home/Home.css';
 export default class Home extends Component {
     constructor() {
@@ -35,60 +37,59 @@ export default class Home extends Component {
         }
         return (
             <header className="home container" id="home">
-                <nav id="nav-wrap">
-                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                    <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-                    <ul id="nav" className="nav opaque">
-                        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                        <li><a className="smoothscroll" href="#about">About</a></li>
-                        <li><a className="smoothscroll" href="#skills">Skills</a></li>
-                        <li><a className="smoothscroll" href="#experience">Experience</a></li>
-                        <li><a className="smoothscroll" href="#contact">Contact</a></li>
-                    </ul>
-
-                </nav>
+                <Navbar expand="lg">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="#skills">Skills</Nav.Link>
+                            <Nav.Link href="#experience">Experience</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
                 <Particles
-                            canvasClassName="particles"
-                            params={{
-                                particles: {
-                                    number: {
-                                        value: particleValue,
-                                        density: particleDensity
-                                    },
+                    canvasClassName="particles"
+                    params={{
+                        particles: {
+                            number: {
+                                value: particleValue,
+                                density: particleDensity
+                            },
 
-                                    size: {
-                                        value: 3
-                                    },
-                                    color: {
-                                        value: "#eb83f8"
-                                    },
-                                    line_linked: {
-                                        enable: true,
-                                        color: {
-                                            value: "#eb83f8"
-                                        }
-                                    },
-                                    type:"polygon",
-                                    polygon:{
-                                        nb_sides: 6
-                                    }
-                                },
-                                interactivity: {
-                                    events: {
-                                        onhover: {
-                                            enable: true,
-                                            mode: "repulse"
-                                        }
-                                    },
-                                    modes:{
-                                        repulse:{
-                                            distance:150
-                                        }
-                                    }
+                            size: {
+                                value: 3
+                            },
+                            color: {
+                                value: "#eb83f8"
+                            },
+                            line_linked: {
+                                enable: true,
+                                color: {
+                                    value: "#eb83f8"
                                 }
-                            }}
-                        />
+                            },
+                            type: "polygon",
+                            polygon: {
+                                nb_sides: 6
+                            }
+                        },
+                        interactivity: {
+                            events: {
+                                onhover: {
+                                    enable: true,
+                                    mode: "repulse"
+                                }
+                            },
+                            modes: {
+                                repulse: {
+                                    distance: 150
+                                }
+                            }
+                        }
+                    }}
+                />
                 <div className="row home container">
                     <div className="content-text">
                         <div className="line-text">
@@ -104,7 +105,7 @@ export default class Home extends Component {
                         />
                         <div className="columns download">
                             <p>
-                                <a href="/Resume.pdf" className="button"><i name="resume" className="fa fa-download"></i>Download Resume</a>
+                                <a href="/Resume.pdf" target="_blank" className="button"><i name="resume" className="fa fa-download"></i>Download Resume</a>
                             </p>
                         </div>
                     </div>

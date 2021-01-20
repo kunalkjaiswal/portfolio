@@ -1,0 +1,150 @@
+#contact{
+    background-color: #f5f5f5;
+    padding: 35px 30px;
+    min-height: 75vh;
+}
+#contact h4{
+    color: #000;
+}
+.line-text h4 {
+    font-size: 22px;
+    position: relative;
+    left: 110px;
+    flex-basis: inherit;
+    margin: 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.contact-body{
+    width: 100%;
+    margin: 0px;
+    padding: 15px 30px;
+    font-style: Poppins;
+}
+.reach-me{
+    font-size: 16px;
+    padding: 0% 6% !important;
+}
+.contact-tile{
+    width: fit-content;
+    border-bottom: 1px solid #00000033;
+}
+.contact-data, .form-body{
+    padding: 10px;
+}
+.contact-data a{
+    color: #007bff;
+}
+.contact-item{
+    padding: 6px;
+}
+.add2 {
+    padding: 6px 16px;
+}
+.say-hello input{
+    width: 100%;
+    border: none;
+    outline: 0;
+    font-size: 14px;
+}
+.subject{
+    border: 1px solid #ff8d4aa8;
+    padding: 8px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-left: 0px !important;
+    width: 91%;
+    display: inline-flex;
+}
+.subject div{
+    padding-left: 6px;
+}
+.message{
+    border: 1px solid #ff8d4aa8;
+    padding: 8px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-left: 0px !important;
+    width: 91%;
+    display: inline-flex;
+    height: 180px;
+}
+.message textarea{
+    border: none;
+    font-size: 14px;
+    outline: 0;
+    resize: none;
+}
+.user-data{
+    margin-left: 0px !important;
+}
+.info-input{
+    border: 1px solid #ff8d4aa8;
+    padding: 8px;
+    background-color: white;
+    border-radius: 25px;
+    display: inline-flex;
+    padding-right: 6px !important;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 45%;
+}
+.field-icon{    
+    padding: 6px 8px;
+    background: whitesmoke;
+    border-radius: 25px;
+}
+.field-icon i{
+    font-size: 16px;
+}
+.fa-file-text{
+    margin-left: 3px;
+}
+.form-btn{
+    width: 91%;
+    text-align: center;
+}
+.form-btn button{
+    float: right;
+    margin: 0px 8px;
+    width: 120px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Poppins;
+    outline: 0;
+}
+.errMsg{
+    font-size: 12px;
+    font-style: italic;
+    color: #fd2b2b;
+}
+.form-btn button{
+    outline: 0;
+}
+@media (max-width: 1024px){
+    #contact{
+        padding: 35px;
+        height: 95vh;
+    }
+    .info-input, .subject, .message, .form-btn{
+        width: 100%;
+    }
+    .form-btn button{
+        float: none;
+    }
+}
+
+@media (max-width: 991px){
+    #contact{
+        padding: 35px;
+        height: 95vh;
+    }
+    .info-input, .subject, .message,.form-btn{
+        width: 100%;
+    }
+    .form-btn button{
+        float: none;
+    }
+}
